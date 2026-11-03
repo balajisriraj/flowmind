@@ -1,0 +1,12 @@
+INVOICE
+
+From: Papercraft Office Supplies
+Invoice #: PC-0093
+Date: 2026-11-03
+Due: 2026-11-24
+Contact: accounts@papercraft.example
+
+A4 paper, 40 reams      $212.00
+Toner cartridges x6     $498.00
+
+Total due: $710.00

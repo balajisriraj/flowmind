@@ -1,0 +1,12 @@
+INVOICE
+
+From: Harbourline Freight Pte Ltd
+Invoice #: HF-4471
+Date: 2026-11-01
+Due: 2026-12-01
+Contact: billing@harbourline.example
+
+Container haulage, Tanjong Pagar to Jurong (14 trips)    $9,800.00
+Port handling surcharge                                     $650.00
+
+Total due: $10,450.00

@@ -1,0 +1,12 @@
+INVOICE
+
+From: Northwind Cloud Services
+Invoice #: NW-2207
+Date: 2026-11-02
+Due: 2026-11-30
+Contact: invoices@northwind.example
+
+Compute reservation, November   $6,200.00
+Managed database, November      $1,150.00
+
+Total due: $7,350.00
