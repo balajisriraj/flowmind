@@ -2,8 +2,9 @@
 
 **Describe the process. Get the automation.**
 
-<!-- The film: drag docs/flowmind-promo.mp4 onto the line below in the GitHub editor. -->
+https://github.com/user-attachments/assets/6389f636-8ce1-4f4b-aa89-27ccc811fd2a
 
+<sub>▶ The film, with sound (1 min 50 s). <a href="#the-film">How it was made</a>.</sub>
 
 Explain a business process the way you would tell a colleague: *"When a new invoice lands in the inbox, log it to the ledger, alert finance if it's over 5,000, email the vendor to confirm we got it, and file it away."*
 
@@ -14,12 +15,6 @@ FlowMind then:
 - dry-runs it in a sandbox copy of the workspace
 - fixes whatever broke
 - once you deploy it, runs it on its trigger and monitors every run
-
-
-
-
-https://github.com/user-attachments/assets/6389f636-8ce1-4f4b-aa89-27ccc811fd2a
-
 
 ## What it shows
 
@@ -110,7 +105,7 @@ The promo is made in code, not screen-recorded. `promo/capture.mjs` runs the rea
 ```bash
 cd promo && pnpm install
 node capture.mjs        # snapshots of the real UI
-node kit/render.mjs     # the film, in docs/
+node kit/render.mjs     # the film, in promo/out/ (upload the -web.mp4 to the README)
 ```
 
 ## Layout
