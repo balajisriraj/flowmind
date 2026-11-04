@@ -2,9 +2,8 @@
 
 **Describe the process. Get the automation.**
 
-[![FlowMind film](docs/demo.gif)](docs/flowmind-promo.mp4)
+<!-- The film: drag docs/flowmind-promo.mp4 onto the line below in the GitHub editor. -->
 
-Watch [the full film with sound](docs/flowmind-promo.mp4).
 
 Explain a business process the way you would tell a colleague: *"When a new invoice lands in the inbox, log it to the ledger, alert finance if it's over 5,000, email the vendor to confirm we got it, and file it away."*
 
@@ -105,7 +104,7 @@ The promo is made in code, not screen-recorded. `promo/capture.mjs` runs the rea
 ```bash
 cd promo && pnpm install
 node capture.mjs        # snapshots of the real UI
-node kit/render.mjs     # the film, the poster and the GIF in docs/
+node kit/render.mjs     # the film, in docs/
 ```
 
 ## Layout
