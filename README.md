@@ -15,6 +15,12 @@ FlowMind then:
 - fixes whatever broke
 - once you deploy it, runs it on its trigger and monitors every run
 
+
+
+
+https://github.com/user-attachments/assets/6389f636-8ce1-4f4b-aa89-27ccc811fd2a
+
+
 ## What it shows
 
 | | |
