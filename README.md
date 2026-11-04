@@ -2,6 +2,10 @@
 
 **Describe the process. Get the automation.**
 
+[![FlowMind film](docs/demo.gif)](docs/flowmind-promo.mp4)
+
+Watch [the full film with sound](docs/flowmind-promo.mp4).
+
 Explain a business process the way you would tell a colleague: *"When a new invoice lands in the inbox, log it to the ledger, alert finance if it's over 5,000, email the vendor to confirm we got it, and file it away."*
 
 FlowMind then:
@@ -11,8 +15,6 @@ FlowMind then:
 - dry-runs it in a sandbox copy of the workspace
 - fixes whatever broke
 - once you deploy it, runs it on its trigger and monitors every run
-
-![The build view: what it understood, the design error it fixed, and the workflow with dry-run results on every step](docs/build.jpg)
 
 ## What it shows
 
@@ -95,6 +97,16 @@ The tests also cover:
 - a designer that never produces a valid workflow: the build stops after the allowed fixes and deploy is refused
 - a ledger that changes shape under a deployed workflow: the run fails and raises an alert
 - a dry run, which must leave the real ledger and inbox untouched
+
+## The film
+
+The promo is made in code, not screen-recorded. `promo/capture.mjs` runs the real app on the scripted model, with its own API, MCP servers and UI, and drives it the way a user would: it describes a process, watches the build, deploys the workflow and drops invoices into the inbox. It saves DOM snapshots of each moment. `promo/kit/render.mjs` replays those snapshots as live HTML with a moving camera, captions and kinetic type, renders the film frame by frame and adds an original score synthesised in Python (`promo/kit/score.py`).
+
+```bash
+cd promo && pnpm install
+node capture.mjs        # snapshots of the real UI
+node kit/render.mjs     # the film, the poster and the GIF in docs/
+```
 
 ## Layout
 
